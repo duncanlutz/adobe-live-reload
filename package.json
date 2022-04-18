@@ -1,0 +1,47 @@
+{
+  "name": "alr",
+	"displayName": "Adobe Live Reload",
+	"description": "",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.66.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+        "onCommand:alr.runAdobe"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [{
+            "command": "alr.runAdobe",
+            "title": "Run Adobe Live Reload"
+
+		}]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+        "@types/vscode": "^1.66.0",
+        "@types/glob": "^7.2.0",
+        "@types/mocha": "^9.1.0",
+        "@types/node": "14.x",
+        "eslint": "^8.11.0",
+        "glob": "^7.2.0",
+        "mocha": "^9.2.2",
+        "typescript": "^4.5.5",
+        "@vscode/test-electron": "^2.1.3",
+		"axios": "^0.26.1",
+		"chalk": "^5.0.1",
+		"log-timestamp": "^0.3.0",
+		"md5": "^2.3.0",
+		"open": "^8.4.0",
+		"socket.io": "^4.4.1",
+		"tcp-port-used": "^1.0.2"
+    }
+
+}
