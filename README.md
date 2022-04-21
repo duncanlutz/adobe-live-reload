@@ -26,3 +26,18 @@ Via npm:
 - To start the live reload server, run `npx adobe-live-reload`.
 - Adobe Live Reload will open Adobe DevTools in Google Chrome, live reload is now active and you're ready to debug.
 - To close, select the terminal and press "ctrl+c".
+
+## Changelog
+
+## v1.0.2
+### Changed
+- Updated README
+
+## v1.0.1
+### Changed
+- Updated README
+
+## v1.0.0
+### Added
+- Added live reload functionality
+- Added auto open of Adobe DevTools
