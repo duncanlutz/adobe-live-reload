@@ -1,6 +1,6 @@
 # Adobe Live Reload
 
-Adobe Live Reload impliments live reload functionality to Adobe extension development.
+Adobe Live Reload implements live reload functionality to Adobe extension development.
 
 ### Features
 
@@ -17,27 +17,27 @@ Adobe Live Reload impliments live reload functionality to Adobe extension develo
 
 Via npm:
 
-`$ npm i adobe-live-reload`
+`$ npm i adobe-live-reload -g`
 
 ### Usage
 
 - Install the npm package and Google Chrome extensions.
 - Navigate to the folder of the extension you want to debug.
+- Ensure extension is open in the Adobe Program specified in your .debug file.
 - To start the live reload server, run `$ npx adobe-live-reload`.
 - Adobe Live Reload will open Adobe DevTools in Google Chrome, live reload is now active and you're ready to debug.
 - To close, select the terminal and press "ctrl+c".
 
 ## Changelog
 
-## v1.0.3
-### Changed
-- Updated README
+## v1.0.4
+### Added
+- Added more in-depth error and warning messages
 
-## v1.0.2
 ### Changed
-- Updated README
+- Changed script method of execution to allow for global installation
 
-## v1.0.1
+## v1.0.1 - v1.0.3
 ### Changed
 - Updated README
 

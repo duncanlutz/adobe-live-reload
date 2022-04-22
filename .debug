@@ -1,0 +1,8 @@
+<ExtensionList>
+    <Extension Id="com.did.panel">
+        <HostList>
+            <Host Name="ILST" Port="8088" />
+            <Host Name="AEFT" Port="8089" />
+        </HostList>
+    </Extension>
+</ExtensionList>

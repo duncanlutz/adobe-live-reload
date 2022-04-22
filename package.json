@@ -1,8 +1,11 @@
 {
 	"name": "adobe-live-reload",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"bin": {
 		"adobe-live-reload": "runAdobe.js"
+	},
+	"scripts": {
+		"start": "node runAdobe.js"
 	},
 	"description": "Adobe Live Reload impliments live reload functionality to Adobe extension development.",
 	"repository": {
